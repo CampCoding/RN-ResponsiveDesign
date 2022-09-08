@@ -45,14 +45,14 @@ class App extends React.Component {
           backgroundColor: COLORS.white,
         }}>
         <StatusBar backgroundColor={COLORS.primary} />
-        <Image
-          source={pharmacy}
-          style={{
-            width: 40,
-            height: 40,
-          }}
-          resizeMode="contain"
-        />
+//         <Image
+//           source={pharmacy}
+//           style={{
+//             width: 40,
+//             height: 40,
+//           }}
+//           resizeMode="contain"
+//         />
         <TextInput
           value={this.state.email}
           onChangeText={text => {
